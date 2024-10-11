@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Shrikhand", serif;
+        }
+
+        #navbar {
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(#F19116, #ad6a12);
+            height: 60px;
+            width: 100%;
+            font-size: 1.6rem;
+        }
+
+        #navbar>* {
+            margin: 0 2rem;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: #6B6E8E;
+            -webkit-text-stroke: 1px #C70C42;
+            text-shadow: 2px 2px 0 #E8001F;
+        }
+
+        #navbar ul {
+            list-style: none;
+        }
+
+        #navbar ul li {
+            display: inline;
+            padding: 0 5px;
+        }
+
+        #navbar a:hover {
+            color: rgb(216, 216, 0);
+        }
+
+        #showcase {
+            background: #192420 url(./nathan-anderson-OtFKJf3MXXo-unsplash.jpg) no-repeat center center/cover;
+            /* Photo by <a href="https://unsplash.com/@nathananderson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan Anderson</a> on <a href="https://unsplash.com/photos/galaxy-OtFKJf3MXXo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+            height: 100vh;
+        }
+
+        #showcase .showcase-content {
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #6B6E8E;
+            -webkit-text-stroke: 1px #2e2e2e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #main-content {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #main-content div h1 {
+            margin: 20px;
+            font-size: 1.8rem;
+            color: yellow;
+        }
+
+        #main-items {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .item {
+            max-width: 20vw;
+        }
+
+        .item h2 {
+            -webkit-text-stroke: 1px darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1>
+            <a href="index.html">Funk</a>
+        </h1>
+        <ul>
+            <li><a href="#uvod">Úvod</a></li>
+            <li><a href="#o-nas">O nás</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div id="showcase">
+        <div class="showcase-content">
+            <section id="main-content">
+                <div>
+                    <h1>Funk!?</h1>
+                </div>
+                <div id="main-items">
+                    <div class="item">
+                        <h2>Hudební žánr</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt, quos iste consequuntur enim, esse iusto.</p>
+                    </div>
+                    <div class="item">
+                        <h2>Kapely</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt, quos iste consequuntur enim, esse iusto.</p>
+                    </div>
+                    <div class="item">
+                        <h2>Alba</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt, quos iste consequuntur enim, esse iusto.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
