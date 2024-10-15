@@ -53,8 +53,8 @@ body {
 #showcase .showcase-content {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    color: #6B6E8E;
-    -webkit-text-stroke: 1px #2e2e2e;
+    color: #C70C42;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +71,7 @@ body {
 #main-content div h1 {
     margin: 20px;
     font-size: 1.8rem;
-    color: yellow;
+    color: #ce1361;
 }
 
 #main-items {
@@ -84,6 +84,8 @@ body {
     max-width: 20vw;
 }
 
-.item h2 {
-    -webkit-text-stroke: 1px darkblue;
+.text-gradient{
+    background: linear-gradient(#e12667 ,#b713c3, #ab773b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
