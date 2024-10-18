@@ -52,6 +52,7 @@ body {
 
 #showcase .showcase-content {
     height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     color: #C70C42;
    
@@ -62,6 +63,7 @@ body {
 
 #main-content {
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,15 +79,24 @@ body {
 #main-items {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .item {
-    max-width: 20vw;
+    max-width: 24vw;
 }
 
 .text-gradient{
     background: linear-gradient(#e12667 ,#b713c3, #ab773b);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    padding: 0 1rem;
 }
