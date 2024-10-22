@@ -45,7 +45,7 @@ body {
 }
 
 #showcase {
-    background: #192420 url(./nathan-anderson-OtFKJf3MXXo-unsplash.jpg) no-repeat center center/cover;
+    background: #192420 url(./imgs/nathan-anderson-OtFKJf3MXXo-unsplash.jpg) no-repeat center center/cover;
     /* Photo by <a href="https://unsplash.com/@nathananderson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan Anderson</a> on <a href="https://unsplash.com/photos/galaxy-OtFKJf3MXXo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
     height: 100vh;
 }
@@ -87,7 +87,7 @@ body {
 }
 
 .text-gradient{
-    background: linear-gradient(#e12667 ,#b713c3, #ab773b);
+    background: linear-gradient(#e12667, #b713c3, #ab773b);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
@@ -99,4 +99,47 @@ body {
 
 i {
     padding: 0 1rem;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #192420;
+}
+
+#alba {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#alba h2 {
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+}
+
+#alba-items {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    text-align: center;
+}
+
+.alba-item {
+    width: 25vw;
+    height: 25vw;
+    font-size: 1.3rem;
+}
+
+.alba-item img {
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
+    border-image: conic-gradient(#b713c3, #ab773b, #e12667) 1;
 }
