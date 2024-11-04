@@ -1,0 +1,31 @@
+#navbar {
+    height: 10vh;
+}
+
+#navbar>* {
+    margin: 0 0.5rem;
+}
+
+#main-content {
+}
+
+#main-items {
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-item {
+    max-width: 90vw;
+}
+#alba {
+    height: 200vh;
+}
+#alba-items {
+    flex-direction: column;
+}
+
+.alba-item {
+    width: 70vw;
+    height:70vw;
+    margin: 2rem;
+}

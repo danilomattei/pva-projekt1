@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="mobile.css">
 
 </head>
 
@@ -29,66 +30,118 @@
     </nav>
 
     <div id="showcase">
-        <div class="showcase-content">
-            <section id="main-content">
-                <div>
-                    <h1>Funk!?</h1>
-                </div>
-                <div id="main-items" class="text-gradient">
-                    <div class="item">
-                        <div class="header-icon">
-                            <h2>Hudební žánr</h2><i class="fa-solid fa-music fa-2x"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore
-                            eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt,
-                            quos iste consequuntur enim, esse iusto.</p>
+        <section id="main-content" class="container">
+            <div>
+                <h1>Funk!?</h1>
+            </div>
+            <div id="main-items" class="items text-gradient">
+                <div class="main-item">
+                    <div class="header-icon">
+                        <h2>Hudební žánr</h2><i class="fa-solid fa-music fa-2x"></i>
                     </div>
-                    <div class="item">
-                        <div class="header-icon">
-                            <h2>Kapely</h2><i class="fa-solid fa-guitar fa-2x"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore
-                            eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt,
-                            quos iste consequuntur enim, esse iusto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore
+                        eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt,
+                        quos iste consequuntur enim, esse iusto.</p>
+                </div>
+                <div class="main-item">
+                    <div class="header-icon">
+                        <h2>Kapely</h2><i class="fa-solid fa-guitar fa-2x"></i>
                     </div>
-                    <div class="item">
-                        <div class="header-icon">
-                            <h2>Alba</h2><i class="fa-solid fa-record-vinyl fa-2x"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore
-                            eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt,
-                            quos iste consequuntur enim, esse iusto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore
+                        eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt,
+                        quos iste consequuntur enim, esse iusto.</p>
+                </div>
+                <div class="main-item">
+                    <div class="header-icon">
+                        <h2>Alba</h2><i class="fa-solid fa-record-vinyl fa-2x"></i>
                     </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <div class="container">
-        <section id="alba">
-            <h2>Alba</h2>
-            <div id="alba-items">
-                <div class="alba-item">
-                    <img src="./imgs/mothership-connection.jpg" alt="">
-                    <p>Parliament - Mothership Connection</p>
-                </div>
-                <div class="alba-item">
-                    <img src="./imgs/head-hunters.jpg" alt="">
-                    <p>Herbie Hancock - Head Hunters</p>
-                </div>
-                <div class="alba-item">
-                    <img src="./imgs/fresh.jpg" alt="">
-                    <p>Sly & The Family Stone - Fresh</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi dolores inventore
+                        eveniet dolor error facere obcaecati rem reiciendis suscipit labore tenetur est nesciunt,
+                        quos iste consequuntur enim, esse iusto.</p>
                 </div>
             </div>
         </section>
     </div>
 
-    <div class="container">
-        <section id="kapely">
-            <h2>Kapely</h2>
-        </section>
-    </div>
+    <section id="alba" class="container">
+        <h2>Alba</h2>
+        <div id="alba-items" class="items">
+            <div class="alba-item">
+                <img src="./imgs/mothership-connection.jpg" alt="">
+                <p>Parliament - Mothership Connection</p>
+            </div>
+            <div class="alba-item">
+                <img src="./imgs/head-hunters.jpg" alt="">
+                <p>Herbie Hancock - Head Hunters</p>
+            </div>
+            <div class="alba-item">
+                <img src="./imgs/fresh.jpg" alt="">
+                <p>Sly & The Family Stone - Fresh</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="kapely" class="container">
+        <h2>Kapely</h2>
+        <table id="kapely-tabulka">
+            <thead>
+                <tr>
+                    <th>Název</th>
+                    <th>Rok založení</th>
+                    <th>Počet alb</th>
+                </tr>
+            </thead>
+            <tbody class="text-gradient">
+                <tr>
+                    <td>James Brown</td>
+                    <td>1954</td>
+                    <td>59</td>
+                </tr>
+                <tr>
+                    <td>Parliament</td>
+                    <td>1968</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Sly and the Family Stone</td>
+                    <td>1966</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Earth, Wind & Fire</td>
+                    <td>1969</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Infectious Grooves</td>
+                    <td>1989</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Chic</td>
+                    <td>1972</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Ohio Players</td>
+                    <td>1959</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Tower of Power</td>
+                    <td>1968</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Graham Central Station</td>
+                    <td>1973</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 </body>
 
 </html>
