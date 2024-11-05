@@ -6,7 +6,12 @@
     margin: 0 0.5rem;
 }
 
-#main-content {
+#toggleButton {
+    display: block;
+}
+
+#navbar > ul {
+    display: none;
 }
 
 #main-items {

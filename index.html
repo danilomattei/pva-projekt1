@@ -27,6 +27,16 @@
             <li><a href="#o-nas">O nás</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
         </ul>
+        <div id="toggleButton">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="dropdown-menu" class="">
+            <ul>
+                <li><a href="#uvod">Úvod</a></li>
+                <li><a href="#o-nas">O nás</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div id="showcase">
@@ -142,6 +152,20 @@
         </table>
     </section>
 
-</body>
+    <script>
+        const toggleBtn = document.querySelector("#toggleButton");
+        const toggleBtnIcon = document.querySelector("#toggleButton i");
+        const dropDownMenu = document.querySelector("#dropdown-menu");
 
+        toggleBtn.addEventListener("click", () => {
+            console.log("dkfjasl;fe");
+            dropDownMenu.classList.toggle("open");
+            const isOpen = dropDownMenu.classList.contains("open");
+            
+            toggleBtnIcon.classList = isOpen
+                ? "fa-solid fa-xmark"
+                : "fa-solid fa-bars"            
+        } )
+    </script>
+</body>
 </html>
